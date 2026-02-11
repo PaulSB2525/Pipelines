@@ -21,7 +21,7 @@ btnSearch.addEventListener('click', () => {
     resultArea.innerHTML = `<p>Error 404: Personaje no encontrado en la base de datos.</p>`;
     resultArea.style.borderColor = "#e94560"; // Rojo si falla
   }
-  if(db[query]=="epstein"){
+  if(query=="epstein"){
     resultPic.src = "https://media.vanityfair.com/photos/5d63ff8db5890000082acd12/master/w_2560%2Cc_limit/Epstein-October-2019-Lede.jpg";
   }
 });
