@@ -22,6 +22,6 @@ btnSearch.addEventListener('click', () => {
     resultArea.style.borderColor = "#e94560"; // Rojo si falla
   }
   if(query=="epstein"){
-    resultPic.src = "https://media.vanityfair.com/photos/5d63ff8db5890000082acd12/master/w_2560%2Cc_limit/Epstein-October-2019-Lede.jpg";
+    resultPic.src = "https://bloximages.chicago2.vip.townnews.com/myheraldreview.com/content/tncms/assets/v3/editorial/6/d1/6d15b360-aa51-11ee-813a-cfe0461ac9d9/659585226156a.image.jpg?resize=400%2C399";
   }
 });
